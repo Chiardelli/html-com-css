@@ -1,0 +1,204 @@
+@import url('//fonts.googleapis.com/css?family=Montserrat:400,700|Muli:400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: 180px   ;
+    background: #ffffff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem color(#ffbebe);
+}
+
+header .logo{
+    display: inline-block; /* Necessário para que o span tenha tamanho */
+    width: 150px; /* Largura do GIF */
+    height: 150px; /* Altura do GIF */
+}
+
+body{
+  background: #f2f2f2;
+  font-family: 'Montserrat', sans-serif;
+  color:#ffbebe
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 1px solid #ffbebe;
+  border-right: none;
+  padding: 10px;
+  height: 40px;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+  color: #ffbebe;
+}
+
+.searchTerm:focus{
+  color: #ffbebe;
+}
+
+.searchButton {
+  width: 50px;
+  height: 40px;
+  border: 1px solid #ffbebe;
+  background: #ffbebe;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar{
+    position: relative;
+    margin-top: 120px;
+}
+
+header .navbar a{
+    font-size: 18px;
+    padding: 0 1.5rem;
+    color: #ffdbe4;
+}
+
+
+header .icons a{
+    font-size: 3rem;
+    color: rgb(253, 212, 212);
+    margin-left: 1.5rem;
+    height: 80px;
+}
+
+.banner {
+    position: relative; /* Para posicionamento relativo */
+    width: 100%;
+    height: 450px; /* Altura do banner */
+    background-color: #ffdbe4; /* Cor de fundo do banner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    position: absolute; /* Para posicionamento absoluto */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.banner-text {
+    position: absolute; /* Para posicionamento absoluto */
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Para centralizar vertical e horizontalmente */
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.img-right {
+    width: 30%;
+    margin-left: auto; /* Alinha a imagem à direita */
+    margin-right: 20px; /* Adiciona um espaçamento à direita */
+    border:5px solid #ffbebe;
+    border-radius: 100px;
+}
+
+.img-left {
+    width: 30%;
+    margin-right: auto; /* Alinha a imagem à esquerda */
+    margin-left: 20px; /* Adiciona um espaçamento à esquerda */
+    border:5px solid #ffbebe;
+    border-radius: 100px;
+}
+
+.texto{
+    margin-left: 38%; /* Alinhando o texto à direita */
+    color: #ffdbe4;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre os elementos */
+    align-items: center; /* Centraliza verticalmente */
+    margin-bottom: 50px; /* Adiciona um espaçamento entre as seções */
+}
+
+.texto2{
+    margin-right: 38%; /* Alinhando o texto à direita */
+    color: #ffdbe4;
+    font-size: 20px;
+}
+
+.btn-compra {
+    background-color: #ffdbe4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-compra:hover {
+    background-color: #ff8f8f; /* Mudar a cor ao passar o mouse */
+}
+
+footer {
+    background-color: #ffdbe4;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.copyright {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
